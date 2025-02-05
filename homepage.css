@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-brand{
+    font-size: 32px;
+    font-family: "Great Vibes", serif;
+    font-weight: 500;
+    color: rgb(160, 112, 51);
+
+}
+.navbar-brand:hover{
+    color: pink;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Courgette", serif;
+    color: black;
+}
+.nav-link:hover{
+    color: pink;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid pink;
+    margin-right:-35px;
+    font-family: "Courgette", serif;
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(230, 155, 166);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: "Courgette", serif;
+
+}
+.main{
+    background-image: url(images/mainImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;;
+}
+.main h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Courgette", serif;
+    color: rgb(50, 100, 100);
+
+}
+.main h1:hover{
+    color: rgb(206, 147, 58);
+    transform: translateY(-10px);
+}
+.btn2{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 144, 204);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: "DM Sans", serif;
+
+}
+.btn2:hover{
+    background-color:rgb(223, 174, 194) ;
+    color: rgb(159, 88, 143);
+    height: 40px;
+    width: 28% ;
+}
+.container h1{
+    font-family: "Courgette", serif;
+
+}
+.container h6{
+    
+    font-weight: 500;
+   
+
+}
+.trending h1{
+    font-weight: 700;
+}
+/* Card hover effect */
+.trending .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trending .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.trending .card img {
+    transition: transform 0.3s ease;
+}
+
+.trending .card:hover img {
+    transform: scale(1.05);
+}
+
+
+.original-price {
+    text-decoration: line-through; 
+    color: #999; 
+    margin-right: 10px; 
+}
+
+.discount-price {
+    color: #E74C3C;
+    font-weight: bold; 
+}
+.deals .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.deals .card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+.deals .card img {
+    transition: transform 0.3s ease;
+}
+
+
+.deals .card:hover img {
+    transform: scale(1.05); 
+
+}
+.categories .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.categories .card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.categories.card img {
+    transition: transform 0.3s ease;
+}
+
+
+.categories .card:hover img {
+    transform: scale(1.05); 
+}
+
+.new{
+    background-image: url(images/mainImage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+ 
+}
+.new h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Courgette", serif;
+    color: rgb(140, 204, 227);
+    padding-top: 80px;
+
+}
+.new h1:hover{
+    color: rgb(206, 147, 58);
+    transform: translateY(-10px);
+}
+
+
+.end{
+    background-color: black;
+    color: white;
+}
+.fa-brands{
+    font-size: 32px;
+    cursor: pointer;
+    padding-right: 5px;
+}
