@@ -92,9 +92,7 @@
    
 
 }
-.trending h1{
-    font-weight: 700;
-}
+
 /* Card hover effect */
 .trending .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -171,12 +169,12 @@
     font-size: 30px;
     font-weight: 700;
     font-family: "Courgette", serif;
-    color: rgb(140, 204, 227);
+    color: rgb(206, 147, 58);
     padding-top: 80px;
 
 }
 .new h1:hover{
-    color: rgb(206, 147, 58);
+    color: rgb(198, 142, 187);
     transform: translateY(-10px);
 }
 
