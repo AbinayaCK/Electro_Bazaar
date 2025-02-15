@@ -188,3 +188,13 @@
     cursor: pointer;
     padding-right: 5px;
 }
+@media (max-width: 768px) {
+    .col-12 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+.text{
+    text-decoration: none;
+    
+}
