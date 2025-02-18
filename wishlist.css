@@ -50,8 +50,8 @@ body{
 
 }
 .wishlist-container{
-    
-    width: 80%;
+    padding: 30px;
+    width: 90%;
     margin: 0 auto;
     background-color: rgb(252, 217, 245);
     background: linear-gradient(to right,rgb(225, 182, 217), rgb(241, 201, 235),rgb(228, 203, 224));
