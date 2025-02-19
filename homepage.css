@@ -45,6 +45,18 @@
     font-family: "Courgette", serif;
 
 }
+.profile a{
+    text-decoration: none;
+    color: black;
+
+}
+.profile i {
+    font-size: 20px;
+}
+.profile i:hover{
+    color: rgb(198, 142, 187);
+    
+}
 .main{
     background-image: url(images/mainImage.jpg);
     background-repeat: no-repeat;
@@ -181,7 +193,10 @@
 
 .end{
     background-color: black;
-    color: white;
+    color: rgb(97, 90, 90);
+}
+.end h5{
+    color: rgb(188, 181, 181);
 }
 .fa-brands{
     font-size: 32px;
@@ -192,6 +207,10 @@
     .col-12 {
         flex: 0 0 50%;
         max-width: 50%;
+    }
+    .profile i{
+        margin-top: 10px;
+       
     }
 }
 .text{

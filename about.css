@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-brand{
+    font-size: 32px;
+    font-family: "Great Vibes", serif;
+    font-weight: 500;
+    color: rgb(160, 112, 51);
+
+}
+.navbar-brand:hover{
+    color: pink;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Courgette", serif;
+    color: black;
+}
+.nav-link:hover{
+    color: pink;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid pink;
+    margin-right:-35px;
+    font-family: "Courgette", serif;
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(230, 155, 166);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: "Courgette", serif;
+
+}
+.profile a{
+    text-decoration: none;
+    color: black;
+
+}
+.profile i {
+    font-size: 20px;
+}
+.profile i:hover{
+    color: rgb(198, 142, 187);
+    
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 17px;
+    color: #555;
+}
+
+/* Team Section */
+.team-member {
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 15px;
+    color: #777;
+}
+.team-member img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+.text{
+    text-align: justify;
+}
+/* Contact Section */
+.btn2{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 144, 204);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: "DM Sans", serif;
+
+}
+.btn2:hover{
+    background-color:rgb(223, 174, 194) ;
+    color: rgb(159, 88, 143);
+    height: 40px;
+    width: 28% ;
+}
+/* Footer */
+.end{
+    background-color: black;
+    color: rgb(97, 90, 90);
+}
+.end h5{
+    color: rgb(188, 181, 181);
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1, h2, h3 {
+        font-size: 20px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+
+    .team-member {
+        display: block;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        padding: 6px 12px;
+    }
+}
