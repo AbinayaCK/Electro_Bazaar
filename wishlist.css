@@ -1,5 +1,9 @@
 body{
     padding-top: 70px;
+    background-image: url(images/backgrounImage.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
   
   .navbar {
@@ -49,8 +53,7 @@ body{
     padding: 30px;
     width: 90%;
     margin: 0 auto;
-    background-color: rgb(252, 217, 245);
-    background: linear-gradient(to right,rgb(225, 182, 217), rgb(241, 201, 235),rgb(228, 203, 224));
+    background-color: white;    
 }
 .wishlist-header {
     display: flex;
@@ -117,7 +120,7 @@ body{
     width: 20%;
 }
 
-.cart {
+.cart .cart1{
     width: 20%;
 }
 .delete{
@@ -126,10 +129,25 @@ body{
 .one{
     visibility: hidden;
 }
-.wishlist-item button{
-    color: black(220, 229, 220);
-    background-color: rgb(194, 117, 167);
- 
+.cart1 button{
+    background-color: gray;
+    border-radius: 10px;
+}
+.cart button{
+    background: linear-gradient(to right,pink,rgb(249, 131, 221));
+    border-radius: 10px;
+}
+.cart button:hover{
+    background: linear-gradient(to right,rgb(233, 122, 192),rgb(163, 115, 152));
+    color: white;
+}
+.delete button{
+    background: linear-gradient(to right,pink,rgb(249, 131, 221));
+    border-radius: 10px;
+}
+.delete button:hover{
+    background: linear-gradient(to right,rgb(233, 122, 192),rgb(163, 115, 152));
+    color: white;
 }
 @media (max-width: 500px) {
     .wishlist-header {

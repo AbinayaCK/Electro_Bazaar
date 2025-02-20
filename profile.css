@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    border-bottom: 1px solid rgb(170, 167, 169);
+ 
+  }
+.navbar-brand{
+    font-size: 32px;
+    font-family: "Great Vibes", serif;
+    font-weight: 500;
+    color: rgb(160, 112, 51);
+
+}
+.navbar-brand:hover{
+    color: pink;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Courgette", serif;
+    color: black;
+}
+.nav-link:hover{
+    color: pink;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid pink;
+    margin-right:-35px;
+    font-family: "Courgette", serif;
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(230, 155, 166);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: "Courgette", serif;
+
+}
+
+body {
+    background-image: url(images/backgrounImage.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.profile-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header h2 {
+    margin-bottom: 10px;
+}
+
+.profile-header p {
+    color: #777;
+}
+
+.profile-info {
+    margin-bottom: 30px;
+}
+.main .container{
+    
+    margin-top: 8%;
+}
+.order-history {
+    margin-bottom: 30px;
+}
+
+.order-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-history th,
+.order-history td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.order-history th {
+    background-color: #f8f9fa;
+}
+
+.btn-custom {
+    background: linear-gradient(to right,pink,rgb(249, 131, 221));
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(to right,rgb(233, 122, 192),rgb(163, 115, 152));
+}
+
+.user-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.profile-header img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+/* For responsive design */
+@media (max-width: 768px) {
+    .profile-container {
+        padding: 20px;
+    }
+    .main .container{
+        margin-top: 20%;
+    }
+    .user-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .order-history table {
+        font-size: 12px;
+    }
+}
+.btn-custom2 {
+    background: linear-gradient(to right,pink,rgb(249, 131, 221));
+    color: #fff;
+}
+
+.btn-custom2:hover {
+    background: linear-gradient(to right,rgb(233, 122, 192),rgb(163, 115, 152));
+}
+/* Ensures that logout/discard buttons are inline */
+.logout-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.end{
+    background-color: black;
+    color: rgb(97, 90, 90);
+}
+.end h5{
+    color: rgb(188, 181, 181);
+}
+/* Ensures order history table looks better on very small screens */
+@media (max-width: 500px) {
+    .main .container{
+        margin-top: 30%;
+    }
+    .order-history table {
+        font-size: 10px;
+        overflow-x: auto;
+        display: block;
+    }
+}
