@@ -197,6 +197,9 @@
 .end h5{
     color: rgb(188, 181, 181);
 }
+.end span i{
+    font-size: 20px;
+}
 .fa-brands{
     font-size: 32px;
     cursor: pointer;

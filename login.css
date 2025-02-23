@@ -94,6 +94,7 @@ img {
 
 .account a {
     color: #9e248c;
+    font-size: 15px;
 }
 
 .account a:hover {
@@ -144,4 +145,21 @@ img {
 .text {
     text-decoration: none;
     color: white;
+}
+.btn-custom2{
+    background-color: #e3a6da;
+
+}
+.btn-custom2:hover{
+    background-color: #70676f;
+
+}
+.card-body{
+    background-color: antiquewhite;
+}
+.card-body button{
+    background-color: rgb(244, 148, 215);
+}
+.card-body button:hover{
+    background-color: rgb(226, 216, 223);
 }
