@@ -121,7 +121,10 @@ h1 {
     padding: 10px 0;
     font-weight: bold;
 }
-
+.card button a{
+    text-decoration: none;
+    color: white;
+}
 .card-body .buttons-container button.mb-2 {
     margin-bottom: 10px;
 }

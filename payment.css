@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+}
+
+.navbar {
+    border-bottom: 1px solid rgb(170, 167, 169);
+    position: fixed;
+    width: 100%; 
+    z-index: 10;
+    background-color: white;
+  }
+.navbar-brand{
+    font-size: 32px;
+    font-family: "Great Vibes", serif;
+    font-weight: 500;
+    color: rgb(160, 112, 51);
+
+}
+.navbar-brand:hover{
+    color: pink;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Courgette", serif;
+    color: black;
+}
+.nav-link:hover{
+    color: pink;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid pink;
+    margin-right:-35px;
+    font-family: "Courgette", serif;
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(230, 155, 166);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: "Courgette", serif;
+
+}
+body{
+    background-image: url(images/backgrounImage.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/backgrounImage.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 35px;
+    padding-top: 110px;
+   
+}
+.container1 form{
+    width: 700px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+form .row{
+    display: flex ;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+.row .column{
+    flex: 1 1 250px;
+}
+.column .title{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.column .input-box{
+    margin: 15px 0;
+}
+.input-box span{
+    display: block;
+    margin-bottom: 10px;
+}
+.input-box input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid peachpuff;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.column .flex{
+    display: flex;
+    gap: 10px;
+}
+.flex .input-box{
+    margin-top: 5px;
+}
+.input-box img{
+    height:44px;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+form .btn2{
+    width: 100%;
+    padding: 12px;
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+form .btn2:hover{
+    background-color: rgb(101, 175, 212);
+}
+.end{
+    background-color: black;
+    color: white;
+}
