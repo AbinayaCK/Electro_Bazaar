@@ -137,5 +137,8 @@ form .btn2:hover{
 }
 .end{
     background-color: black;
-    color: white;
+    color: rgb(97, 90, 90);
+}
+.end h5{
+    color: rgb(188, 181, 181);
 }

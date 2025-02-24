@@ -107,6 +107,8 @@
 /* Card hover effect */
 .trending .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .trending .card:hover {
@@ -135,6 +137,8 @@
 }
 .deals .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .deals .card:hover {
@@ -152,6 +156,8 @@
 }
 .categories .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .categories .card:hover {
@@ -190,7 +196,7 @@
     transform: translateY(-10px);
 }
 
-.watch h6 a{
+.product h6 a{
     text-decoration: none;
     color: black;
 }
