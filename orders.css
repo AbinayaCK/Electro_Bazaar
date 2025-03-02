@@ -47,9 +47,16 @@
     font-family: "Courgette", serif;
 
 }
+body{
+    background-image: url(images/backgrounImage.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .container {
     max-width: 900px;
         padding: 50px;
+        background-color: white;
 }
 button{
     font-size: 10px;
