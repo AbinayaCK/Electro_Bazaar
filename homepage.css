@@ -45,7 +45,44 @@
 
 }
 
+.btn3{
+    background-color: rgb(230, 155, 166);
+    color: white;
+}
 
+.profile1{
+    display: none;
+}
+@media (max-width: 768px) {
+    .search {
+      width: 120px;  /* Adjust the width on small screens */
+      margin-bottom: 20px;
+    }
+  
+    .btn1 {
+      width: 80px;  /* Adjust button width for smaller screens */
+    }
+  
+    .navbar-nav .nav-item .btn {
+      width: 100px;  /* Keep fixed width for logout button */
+    }
+    /* a img{
+       display: none;
+    }
+    .profile1{
+        display:inline-block;
+    } */
+     .btn3{
+        margin-top: 10px;
+        width: 100px;
+        padding: 5px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+  }
 .main{
     background-image: url(images/mainImage.jpg);
     background-repeat: no-repeat;
