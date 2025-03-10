@@ -120,7 +120,7 @@ form .row{
     margin: 0;
     padding: 0;
 }
-form .btn2{
+form  .btn2{
     width: 100%;
     padding: 12px;
     background-color: blueviolet;
@@ -131,6 +131,9 @@ form .btn2{
     color: white;
     margin-top: 5px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 form .btn2:hover{
     background-color: rgb(101, 175, 212);
