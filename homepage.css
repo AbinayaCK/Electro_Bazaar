@@ -53,6 +53,27 @@
 .profile1{
     display: none;
 }
+.carousel-inner{
+   
+    width: 80%;
+    margin: 0 auto;
+}
+#carouselExampleSlidesOnly{
+    margin-top: 90px;
+}
+
+.home h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Courgette", serif;
+    color: rgb(50, 100, 100);
+
+}
+.home h1:hover{
+    color: rgb(206, 147, 58);
+    transform: translateY(-10px);
+}
+
 @media (max-width: 768px) {
     .search {
       width: 120px;  /* Adjust the width on small screens */
@@ -91,17 +112,7 @@
     width: 100%;
     background-position: 50% 50%;;
 }
-.main h1{
-    font-size: 40px;
-    font-weight: 700;
-    font-family: "Courgette", serif;
-    color: rgb(50, 100, 100);
 
-}
-.main h1:hover{
-    color: rgb(206, 147, 58);
-    transform: translateY(-10px);
-}
 .btn2{
     height: 45px;
     width: 35%;
@@ -256,3 +267,4 @@
     text-decoration: none;
     
 }
+
