@@ -181,7 +181,21 @@ button.btn-primary {
 button.btn-primary:hover {
     background-color: #6bb8f7;
 }
-
+.btn3{
+    background-color: rgb(230, 155, 166);
+    color: white;
+}
+@media(max-width:991px){
+    .btn3{
+        margin-top: 10px;
+        width: 100px;
+        padding: 5px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+}
 /* Media Query for Smaller Screens (Mobile) */
 @media (max-width: 768px) {
     .category {
