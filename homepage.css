@@ -74,10 +74,9 @@
     transform: translateY(-10px);
 }
 
-@media (max-width: 768px) {
-    .search {
-      width: 120px;  /* Adjust the width on small screens */
-      margin-bottom: 20px;
+@media (max-width: 991px) {
+    .search1 button ,.search{
+     display: none;
     }
   
     .btn1 {
@@ -87,12 +86,7 @@
     .navbar-nav .nav-item .btn {
       width: 100px;  /* Keep fixed width for logout button */
     }
-    /* a img{
-       display: none;
-    }
-    .profile1{
-        display:inline-block;
-    } */
+    
      .btn3{
         margin-top: 10px;
         width: 100px;
