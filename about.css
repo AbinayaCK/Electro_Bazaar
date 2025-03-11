@@ -35,7 +35,7 @@
     margin-right:-35px;
     font-family: "Courgette", serif;
 }
-.btn1{
+/* .btn1{
     height: 40px;
     width: 40%;
     outline: none;
@@ -46,8 +46,24 @@
     border-radius: 60px;
     font-family: "Courgette", serif;
 
-}
+} */
 
+.btn3{
+    background-color: rgb(230, 155, 166);
+    color: white;
+}
+@media(max-width:991px){
+    .btn3{
+        margin-top: 10px;
+        width: 100px;
+        padding: 5px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+}
 /* Main Content */
 main {
     padding: 20px;
