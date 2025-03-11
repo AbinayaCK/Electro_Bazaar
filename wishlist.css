@@ -49,6 +49,21 @@ background-attachment: fixed;
     font-family: "Courgette", serif;
 
 }
+.btn3{
+    background-color: rgb(230, 155, 166) !important;
+    color: white !important;
+}
+@media(max-width:991px){
+    .btn3{
+        margin-top: 10px;
+        width: 100px;
+        padding: 5px;
+        height: 40px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+     }
+}
 .wishlist-container{
     padding: 30px;
     width: 90%;
