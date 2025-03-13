@@ -51,6 +51,18 @@
     background-color: rgb(230, 155, 166);
     color: white;
 }
+@media(max-width:991px){
+    .btn3{
+        margin-top: 10px;
+        width: 100px;
+        padding: 5px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+}
 
 .logout-buttons {
     display: flex;
