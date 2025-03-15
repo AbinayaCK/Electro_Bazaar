@@ -3,16 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Navbar content */
 .navbar {
     border-bottom: 1px solid rgb(170, 167, 169);
- 
-  }
+   }
 .navbar-brand{
     font-size: 32px;
     font-family: "Great Vibes", serif;
     font-weight: 500;
     color: rgb(160, 112, 51);
-
 }
 .navbar-brand:hover{
     color: pink;
@@ -26,33 +25,12 @@
 .nav-link:hover{
     color: pink;
 }
-.search{
-    height: 40px;
-    width: 80%;
-    border-radius: 60px;
-    outline: none;
-    border: 2px solid pink;
-    margin-right:-35px;
-    font-family: "Courgette", serif;
-}
 .btn1{
-    height: 40px;
-    width: 40%;
-    outline: none;
-    border: none;
-    background-color: rgb(230, 155, 166);
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
-    font-family: "Courgette", serif;
-
-}
-.btn3{
     background-color: rgb(230, 155, 166);
     color: white;
 }
 @media(max-width:991px){
-    .btn3{
+    .btn1{
         margin-top: 10px;
         width: 100px;
         padding: 5px;
@@ -60,33 +38,30 @@
         display: flex;
         justify-content: center;
         align-items: center;
-     }
+    }
 
 }
+/* Add product form content */
 body {
     background-image: url(images/backgrounImage.avif);
     font-family: Arial, sans-serif;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-   
-}
-
-.btn3{
-    background-color: rgb(230, 155, 166);
-    color: white;
-}
-.btn4 {
-    background: linear-gradient(to right,pink,rgb(249, 131, 221));
-    color: #fff;
-}
-
-.btn4:hover {
-    background: linear-gradient(to right,rgb(233, 122, 192),rgb(163, 115, 152));
 }
 .main_container{
     padding: 50px;
 }
+.btn2 {
+    background: linear-gradient(to right,pink,rgb(249, 131, 221));
+    color: #fff;
+}
+
+.btn2:hover {
+    background: linear-gradient(to right,rgb(233, 122, 192),rgb(163, 115, 152));
+}
+
+/* Footer */
 .end{
     background-color: black;
     color: rgb(97, 90, 90);
