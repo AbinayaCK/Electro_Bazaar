@@ -1,188 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order History - Electro Bazaar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-<!-- <link href="https://fonts.googleapis.com/css2?family=Anton&family=Badeen+Display&family=Bebas+Neue&family=Courgette&family=Dancing+Script:wght@400..700&family=Geologica:wght@100..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Sawarabi+Gothic&family=Sixtyfour+Convergence&family=Squada+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="orders.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="orders.css" />
+  </head>
+  <body>
+    <!-- Navbar Menu -->
     <nav class="navbar navbar-expand-lg fixed-top bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Electro Bazaar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav m-auto my-2 my-lg-0 " >
-              <li class="nav-item">
-                <a class="nav-link "href="homepage.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link text-danger" href="orders.html" >Orders</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="wishlist.html" >Wishlist</a>
-              </li>
-            </ul>
-         
-            <!-- <form class="d-flex" role="search">
-              <input class=" px-2 search" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn1" type="submit">Search</button>
-            </form> -->
-            <a href="profile.html">
-                <img src="images/profile.jpg" alt="Profile" class="mx-3" style="width: 30px; height: 30px; object-fit: cover;border-radius: 50%;" />
-            </a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Electro Bazaar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav m-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="orders.html">Orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wishlist.html">Wishlist</a>
+            </li>
+          </ul>
+          <a href="profile.html">
+            <img
+              src="images/profile.jpg"
+              alt="Profile"
+              class="mx-3"
+              style="
+                width: 30px;
+                height: 30px;
+                object-fit: cover;
+                border-radius: 50%;
+              "
+            />
+          </a>
 
-            <ul class="navbar-nav ">
-                <li class="nav-item">
-                  <a class="btn3 rounded-pill nav-link" href="index.html" role="button">Logout</a>
-                </li>
-              </ul>
-
-          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="btn1 rounded-pill nav-link"
+                href="index.html"
+                role="button"
+                >Logout</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <!-- Main Content -->
-    <div class="container container1 my-5">
-        <h2 class="text-center">Order History</h2>
+    <div class="container container1 mt-5 p-4">
+      <h2 class="text-center">Order History</h2>
 
-        <!-- Active Orders Section -->
-        <h4>Active Orders</h4>
-        <div class="order-history">
-            
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>Order Number</th>
-                        <th>Order Date</th>
-                        <th>Product Image</th>
-                        <th>Items Purchased</th>
-                        <th>Status</th>
-                        <th>Total Amount</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>#12348</td>
-                        <td>2025-02-25</td>
-                        <td><img src="images/sanDisk.jpg" alt="SanDisk Ultra Flash Drive" class="product-image"></td>
-                        <td>SanDisk Ultra 64-GB USB 3.0 Flash Drive</td>
-                        <td>Shipped</td>
-                        <td>₹700</td>
-                        <td><button class="cancel-btn rounded-pill">Cancel Order</button></td>
-                    </tr>
-                    <tr>
-                        <td>#12349</td>
-                        <td>2025-02-26</td>
-                        <td><img src="images/pendrive.jpg" alt="HP USB Drive" class="product-image"></td>
-                        <td>HP 64 GB USB 3.2 Flash Drive Blue</td>
-                        <td>Shipped</td>
-                        <td>₹420</td>
-                        <td><button class="cancel-btn rounded-pill" disabled>Cancel Order</button></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+      <!-- Active Orders Section -->
+      <h4>Active Orders</h4>
+      <div class="order-history mt-2">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Order Number</th>
+              <th>Order Date</th>
+              <th>Product Image</th>
+              <th>Items Purchased</th>
+              <th>Status</th>
+              <th>Total Amount</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#12348</td>
+              <td>25-02-2025</td>
+              <td>
+                <img
+                  src="images/sanDisk.jpg"
+                  alt="SanDisk Ultra Flash Drive"
+                  class="product-image"
+                />
+              </td>
+              <td>SanDisk Ultra 64-GB USB 3.0 Flash Drive</td>
+              <td>Shipped</td>
+              <td>₹700</td>
+              <td>
+                <button class="cancel-btn btn btn-danger rounded-pill">
+                  Cancel Order
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>#12349</td>
+              <td>26-02-2025</td>
+              <td>
+                <img
+                  src="images/pendrive.jpg"
+                  alt="HP USB Drive"
+                  class="product-image"
+                />
+              </td>
+              <td>HP 64 GB USB 3.2 Flash Drive Blue</td>
+              <td>Shipped</td>
+              <td>₹420</td>
+              <td>
+                <button class="cancel-btn btn btn-danger rounded-pill">
+                  Cancel Order
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-        <!-- Horizontal Line to Split Active and Previous Orders -->
-        <hr>
+      <!-- Horizontal Line -->
+      <hr />
 
-        <!-- Previous Orders Section -->
-        <h4>Previous Orders</h4>
-        <div class="order-history">
-           
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>Order Number</th>
-                        <th>Order Date</th>
-                        <th>Product Image</th>
-                        <th>Items Purchased</th>
-                        <th>Status</th>
-                        <th>Total Amount</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>#12345</td>
-                        <td>2025-02-10</td>
-                        <td><img src="images/sanDisk.jpg" alt="SanDisk Ultra Flash Drive" class="product-image"></td>
-                        <td>SanDisk Ultra 64-GB USB 3.0 Flash Drive</td>
-                        <td>Completed</td>
-                        <td>₹700</td>
-                    </tr>
-                    <tr>
-                        <td>#12346</td>
-                        <td>2025-01-22</td>
-                        <td><img src="images/pendrive.jpg" alt="HP USB Drive" class="product-image"></td>
-                        <td>HP 64 GB USB 3.2 Flash Drive Blue</td>
-                        <td>Completed</td>
-                        <td>₹420</td>
-                    </tr>
-                    <tr>
-                        <td>#12347</td>
-                        <td>2025-01-15</td>
-                        <td><img src="images/tv.jpg" alt="LG Smart TV" class="product-image"></td>
-                        <td>LG 108 cm (43 inch) 4K UHD Smart TV</td>
-                        <td>Completed</td>
-                        <td>₹33,599</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+      <!-- Previous Orders Section -->
+      <h4>Previous Orders</h4>
+      <div class="order-history mt-2">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Order Number</th>
+              <th>Order Date</th>
+              <th>Product Image</th>
+              <th>Items Purchased</th>
+              <th>Status</th>
+              <th>Total Amount</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#12345</td>
+              <td>15-03-2025</td>
+              <td>
+                <img
+                  src="images/sanDisk.jpg"
+                  alt="SanDisk Ultra Flash Drive"
+                  class="product-image"
+                />
+              </td>
+              <td>SanDisk Ultra 64-GB USB 3.0 Flash Drive</td>
+              <td>Completed</td>
+              <td>₹700</td>
+              <td>
+                <button class="return-btn btn btn-success rounded-pill">
+                  Return Order
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>#12346</td>
+              <td>14-03-2025</td>
+              <td>
+                <img
+                  src="images/pendrive.jpg"
+                  alt="HP USB Drive"
+                  class="product-image"
+                />
+              </td>
+              <td>HP 64 GB USB 3.2 Flash Drive Blue</td>
+              <td>Completed</td>
+              <td>₹420</td>
+              <td>
+                <button class="return-btn btn btn-success rounded-pill">
+                  Return Order
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>#12347</td>
+              <td>15-01-2025</td>
+              <td>
+                <img
+                  src="images/tv.jpg"
+                  alt="LG Smart TV"
+                  class="product-image"
+                />
+              </td>
+              <td>LG 108 cm (43 inch) 4K UHD Smart TV</td>
+              <td>Completed</td>
+              <td>₹33,599</td>
+              <td>
+                <button
+                  class="return-btn btn btn-secondary rounded-pill"
+                  disabled
+                >
+                  Return Order
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>#12347</td>
+              <td>05-01-2025</td>
+              <td>
+                <img
+                  src="images/airconditioner.png"
+                  alt="LG Smart TV"
+                  class="product-image"
+                />
+              </td>
+              <td>Haier Air Conditioner</td>
+              <td>Completed</td>
+              <td>₹33,599</td>
+              <td>
+                <button
+                  class="return-btn btn btn-secondary rounded-pill"
+                  disabled
+                >
+                  Return Order
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-
+    <!-- Footer -->
     <footer class="end mt-4 py-5">
-        <div class="container ps-4">
+      <div class="container ps-4">
+        <div class="row">
+          <div class="col-lg-12">
             <div class="row">
-                <div class="col-lg-12">
-                   <div class="row">
-                    <div class="col-lg-3 py-3">
-                        <h5 class="pb-3">Top categories</h5>
-                        <p>Accessaries</p>
-                        <p>Home Appliances</p>
-                        <p>Electric</p>
-                    </div>
-                    <div class="col-lg-3 py-3">
-                        <h5 class="pb-3">Help</h5>
-                        <p>Delivery</p>
-                        <p>Returns</p>
-                        <p>Feedback</p>
-                        <p>Secure Payments</p>
-                        <p>Contact Us</p>
-                    </div>
-                    <div class="col-lg-3 py-3">
-                        <h5 class="pb-3">About Us</h5>
-                        <p>Careers</p>
-                        <p>Terms and Conditions</p>
-                        <p>Privacy Policy</p>
-                    </div>
-                    <div class="col-lg-3 py-3">
-                        <h5 class="pb-3">Social Media</h5>
-                        <span><i class="fa-brands fa-facebook"></i></span>
-                        <span><i class="fa-brands fa-instagram"></i></span>
-                        <span><i class="fa-brands fa-twitter"></i></span>
-                        <span><i class="fa-brands fa-whatsapp"></i></span>
-                    </div>
-                   </div>
-                </div>
+              <div class="col-lg-3 py-3">
+                <h5 class="pb-3">Top categories</h5>
+                <p>Accessaries</p>
+                <p>Home Appliances</p>
+                <p>Electric</p>
+              </div>
+              <div class="col-lg-3 py-3">
+                <h5 class="pb-3">Help</h5>
+                <p>Delivery</p>
+                <p>Returns</p>
+                <p>Feedback</p>
+                <p>Secure Payments</p>
+                <p>Contact Us</p>
+              </div>
+              <div class="col-lg-3 py-3">
+                <h5 class="pb-3">About Us</h5>
+                <p>Careers</p>
+                <p>Terms and Conditions</p>
+                <p>Privacy Policy</p>
+              </div>
+              <div class="col-lg-3 py-3">
+                <h5 class="pb-3">Social Media</h5>
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <span><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-brands fa-whatsapp"></i></span>
+              </div>
             </div>
-            <hr>
-            <p class="text-center">Copyright &copy;2025 All rights reserved</p>
+          </div>
         </div>
+        <hr />
+        <p class="text-center">Copyright &copy;2025 All rights reserved</p>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
