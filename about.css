@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+/* Navbar content */
 .navbar {
     border-bottom: 1px solid rgb(170, 167, 169);
   }
@@ -12,7 +17,6 @@
     font-family: "Great Vibes", serif;
     font-weight: 500;
     color: rgb(160, 112, 51);
-
 }
 .navbar-brand:hover{
     color: pink;
@@ -26,34 +30,12 @@
 .nav-link:hover{
     color: pink;
 }
-.search{
-    height: 40px;
-    width: 80%;
-    border-radius: 60px;
-    outline: none;
-    border: 2px solid pink;
-    margin-right:-35px;
-    font-family: "Courgette", serif;
-}
-/* .btn1{
-    height: 40px;
-    width: 40%;
-    outline: none;
-    border: none;
-    background-color: rgb(230, 155, 166);
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
-    font-family: "Courgette", serif;
-
-} */
-
-.btn3{
+.btn1{
     background-color: rgb(230, 155, 166);
     color: white;
 }
 @media(max-width:991px){
-    .btn3{
+    .btn1{
         margin-top: 10px;
         width: 100px;
         padding: 5px;
@@ -72,28 +54,11 @@ main {
 section {
     margin-bottom: 40px;
 }
-
-h1, h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-h3 {
-    font-size: 17px;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 17px;
-    color: #555;
-}
-
-/* Team Section */
+/* Team-member Section */
 .team-member {
     display: inline-block;
     text-align: center;
-    margin-right: 30px;
+    margin:0 auto;
     margin-bottom: 20px;
 }
 
@@ -105,7 +70,7 @@ p {
 }
 
 .team-member h3 {
-    font-size: 12px;
+    font-size: 19px;
     margin-bottom: 10px;
 }
 
@@ -121,6 +86,9 @@ p {
     text-align: justify;
 }
 /* Contact Section */
+.contactAlign{
+    margin: 0 auto;
+}
 .btn2{
     height: 45px;
     width: 35%;
@@ -130,14 +98,12 @@ p {
     color: white;
     font-weight: 700;
     border-radius: 60px;
-    font-family: "DM Sans", serif;
 
 }
 .btn2:hover{
     background-color:rgb(223, 174, 194) ;
     color: rgb(159, 88, 143);
-    height: 40px;
-    width: 28% ;
+    
 }
 /* Footer */
 .end{
@@ -148,34 +114,13 @@ p {
     color: rgb(188, 181, 181);
 }
 
-/* Smooth Scroll */
-html {
-    scroll-behavior: smooth;
-}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    h1, h2, h3 {
-        font-size: 20px;
-    }
-
-    .btn {
-        padding: 8px 16px;
-    }
-
     .team-member {
         display: block;
         margin-bottom: 30px;
     }
 }
 
-@media (max-width: 500px) {
-    header nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .btn {
-        padding: 6px 12px;
-    }
-}
