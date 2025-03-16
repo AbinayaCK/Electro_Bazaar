@@ -2,10 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", serif;
-
 }
-
+/* Navbar contents */
 .navbar {
     border-bottom: 1px solid rgb(170, 167, 169);
     position: fixed;
@@ -18,7 +16,6 @@
     font-family: "Great Vibes", serif;
     font-weight: 500;
     color: rgb(160, 112, 51);
-
 }
 .navbar-brand:hover{
     color: pink;
@@ -32,33 +29,12 @@
 .nav-link:hover{
     color: pink;
 }
-.search{
-    height: 40px;
-    width: 80%;
-    border-radius: 60px;
-    outline: none;
-    border: 2px solid pink;
-    margin-right:-35px;
-    font-family: "Courgette", serif;
-}
 .btn1{
-    height: 40px;
-    width: 40%;
-    outline: none;
-    border: none;
-    background-color: rgb(230, 155, 166);
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
-    font-family: "Courgette", serif;
-
-}
-.btn3{
     background-color: rgb(230, 155, 166);
     color: white;
 }
 @media(max-width:991px){
-    .btn3{
+    .btn1{
         margin-top: 10px;
         width: 100px;
         padding: 5px;
@@ -68,6 +44,7 @@
         align-items: center;
      }
 }
+/* Payment Form */
 body{
     background-image: url(images/backgrounImage.avif);
     background-repeat: no-repeat;
@@ -84,8 +61,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     padding: 35px;
-    padding-top: 110px;
-   
+    padding-top: 110px; 
 }
 .container1 form{
     width: 700px;
@@ -97,7 +73,6 @@ form .row{
     display: flex ;
     gap: 15px;
     flex-wrap: wrap;
-
 }
 .row .column{
     flex: 1 1 250px;
@@ -135,7 +110,7 @@ form .row{
     margin: 0;
     padding: 0;
 }
-form  .btn2{
+form .btn2{
     width: 100%;
     padding: 12px;
     background-color: blueviolet;
@@ -153,6 +128,7 @@ form  .btn2{
 form .btn2:hover{
     background-color: rgb(101, 175, 212);
 }
+/* Footer */
 .end{
     background-color: black;
     color: rgb(97, 90, 90);
