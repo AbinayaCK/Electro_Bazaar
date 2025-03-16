@@ -1,262 +1,166 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.navbar-brand{
-    font-size: 32px;
-    font-family: "Great Vibes", serif;
-    font-weight: 500;
-    color: rgb(160, 112, 51);
-
+/* Navbar Content */
+.navbar-brand {
+  font-size: 32px;
+  font-family: "Great Vibes", serif;
+  font-weight: 500;
+  color: rgb(160, 112, 51);
 }
-.navbar-brand:hover{
-    color: pink;
+.navbar-brand:hover {
+  color: pink;
 }
-.nav-link{
-    margin-right: 10px;
-    margin-left: 10px;
-    font-family: "Courgette", serif;
-    color: black;
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: "Courgette", serif;
+  color: black;
 }
-.nav-link:hover{
-    color: pink;
+.nav-link:hover {
+  color: pink;
 }
-.search{
-    height: 40px;
-    width: 80%;
-    border-radius: 60px;
-    outline: none;
-    border: 2px solid pink;
-    margin-right:-35px;
-    font-family: "Courgette", serif;
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid pink;
+  margin-right: -35px;
+  font-family: "Courgette", serif;
 }
-.btn1{
-    height: 40px;
-    width: 40%;
-    outline: none;
-    border: none;
-    background-color: rgb(230, 155, 166);
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
-    font-family: "Courgette", serif;
-
+.btnSearch {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background-color: rgb(230, 155, 166);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  font-family: "Courgette", serif;
 }
-
-.btn3{
-    background-color: rgb(230, 155, 166);
-    color: white;
+.btn1 {
+  background-color: rgb(230, 155, 166);
+  color: white;
 }
-
-
-.carousel-inner{
-   
-    width: 80%;
-    margin: 0 auto;
-}
-#carouselExampleSlidesOnly{
-    margin-top: 90px;
-}
-
-.home h1{
-    font-size: 40px;
-    font-weight: 700;
-    font-family: "Courgette", serif;
-    color: rgb(50, 100, 100);
-
-}
-.home h1:hover{
-    color: rgb(206, 147, 58);
-    transform: translateY(-10px);
-}
-
 @media (max-width: 991px) {
-    .search1 button ,.search{
-     display: none;
-    }
-  
-    .btn1 {
-      width: 80px;  /* Adjust button width for smaller screens */
-    }
-  
-    .navbar-nav .nav-item .btn {
-      width: 100px;  /* Keep fixed width for logout button */
-    }
-    
-     .btn3{
-        margin-top: 10px;
-        width: 100px;
-        padding: 5px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-     }
-
-  }
-.main{
-    background-image: url(images/mainImage.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    background-position: 50% 50%;;
-}
-
-.btn2{
-    height: 45px;
-    width: 35%;
-    border: none;
-    outline: none;
-    background-color: rgb(245, 144, 204);
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
-    font-family: "DM Sans", serif;
-
-}
-.btn2:hover{
-    background-color:rgb(223, 174, 194) ;
-    color: rgb(159, 88, 143);
+  .btn1 {
+    margin-top: 10px;
+    width: 100px;
+    padding: 5px;
     height: 40px;
-    width: 28% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search {
+    width: 30%;
+    margin-top: 10px;
+  }
+  .btnSearch {
+    width: 20%;
+    margin-top: 10px;
+  }
 }
-.container h1{
-    font-family: "Courgette", serif;
-
+/* Carousel */
+#carouselExampleSlidesOnly {
+  margin-top: 90px;
 }
-.container h6{
-    
-    font-weight: 500;
-   
-
+.carousel-inner {
+  width: 80%;
+  margin: 0 auto;
+}
+.btn2 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(245, 144, 204);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  font-family: "DM Sans", serif;
+}
+.btn2:hover {
+  background-color: rgb(223, 174, 194);
+  color: rgb(159, 88, 143);
+}
+.home h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Courgette", serif;
+  color: rgb(50, 100, 100);
+}
+.home h1:hover {
+  color: rgb(206, 147, 58);
+}
+/* Categories */
+.categories .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 70%;
+  margin: 0 auto;
+}
+.categories .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Card hover effect */
+/* Trending */
 .trending .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 70%;
-    margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 70%;
+  margin: 0 auto;
 }
-
 .trending .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
-.trending .card img {
-    transition: transform 0.3s ease;
-}
-
-.trending .card:hover img {
-    transform: scale(1.05);
-}
-
-
-.original-price {
-    text-decoration: line-through; 
-    color: #999; 
-    margin-right: 10px; 
-}
-
-.discount-price {
-    color: #E74C3C;
-    font-weight: bold; 
-}
+/* deals */
 .deals .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 70%;
-    margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .deals .card:hover {
-    transform: translateY(-10px); 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-.deals .card img {
-    transition: transform 0.3s ease;
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 10px;
 }
-
-
-.deals .card:hover img {
-    transform: scale(1.05); 
-
+.discount-price {
+  color: #e74c3c;
+  font-weight: bold;
 }
-.categories .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 70%;
-    margin: 0 auto;
+.new {
+  background-image: url(images/mainImage2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
 }
-
-.categories .card:hover {
-    transform: translateY(-10px); 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+.new h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Courgette", serif;
+  color: rgb(206, 147, 58);
+  padding-top: 80px;
 }
-
-.categories.card img {
-    
-    transition: transform 0.3s ease;
+.new h1:hover {
+  color: rgb(198, 142, 187);
+  transform: translateY(-10px);
 }
-
-
-.categories .card:hover img {
-    transform: scale(1.05); 
+/* Footer */
+.end {
+  background-color: black;
+  color: rgb(97, 90, 90);
 }
-
-.new{
-    background-image: url(images/mainImage2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-    width: 100%;
- 
+.end h5 {
+  color: rgb(188, 181, 181);
 }
-.new h1{
-    font-size: 30px;
-    font-weight: 700;
-    font-family: "Courgette", serif;
-    color: rgb(206, 147, 58);
-    padding-top: 80px;
-
-}
-.new h1:hover{
-    color: rgb(198, 142, 187);
-    transform: translateY(-10px);
-}
-
-.product h6 a{
-    text-decoration: none;
-    color: black;
-}
-.end{
-    background-color: black;
-    color: rgb(97, 90, 90);
-}
-.end h5{
-    color: rgb(188, 181, 181);
-}
-.end span i{
-    font-size: 20px;
-}
-.fa-brands{
-    font-size: 32px;
-    cursor: pointer;
-    padding-right: 5px;
-}
-@media (max-width: 768px) {
-    .col-12 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .profile i{
-        margin-top: 10px;
-       
-    }
-}
-.text{
-    text-decoration: none;
-    
-}
-
