@@ -1,4 +1,4 @@
-/* Basic reset for body */
+/* Registration form */
 body {
   height: 100vh;
   margin: 0;
@@ -11,8 +11,6 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
-
-/* Container that holds the content */
 .container {
   display: flex;
   width: 90vw;
@@ -22,7 +20,7 @@ body {
   align-items: center;
 }
 
-/* Scrolling message animation */
+/* message */
 .scrolling-message {
   position: absolute;
   top: 10px;
@@ -35,7 +33,7 @@ body {
   font-weight: bold;
 }
 
-/* Define the animation */
+/* animation */
 @keyframes scroll-left-to-right {
   from {
     left: -100%;
@@ -45,7 +43,7 @@ body {
   }
 }
 
-/* Registration Panel */
+/* Registration form */
 .registration-panel {
   width: 50%;
   padding: 30px;
@@ -67,21 +65,17 @@ body {
 .registration-form label {
   font-family: "Courgette", serif;
 }
-
 .registration-form {
   width: 100%;
 }
-
 .registration-form h3 {
   font-weight: 600;
   font-size: 20px;
   text-align: center;
 }
-
 .registration-form input[type="radio"] {
   margin-right: 10px;
 }
-
 /* Responsive styles for medium and small devices */
 @media (max-width: 992px) {
   .container {
@@ -122,7 +116,7 @@ body {
   }
 }
 
-/* Mobile devices (max-width: 576px) */
+
 @media (max-width: 576px) {
   .container {
     width: 100%;
