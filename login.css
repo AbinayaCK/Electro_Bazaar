@@ -1,165 +1,152 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+/* login form */
 body {
-    background-image: url(images/backgrounImage.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
+  background-image: url(images/backgrounImage.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
-
 .row {
-    background: white;
-    border-radius: 30px;
-    padding: 20px;
+  background: white;
+  border-radius: 30px;
+  padding: 20px;
 }
-
 img {
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    width: 100%;
-    margin-top: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 100%;
+  margin-top: 50px;
 }
-
 .scrolling-message {
-    position: absolute;
-    top: 10px;
-    left: -100%;
-    white-space: nowrap;
-    animation: scroll-left-to-right 10s linear infinite; 
-    font-family: "Dancing Script", serif;
-    font-size: 40px;
-    color: rgb(145, 60, 128);
-    font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: -100%;
+  white-space: nowrap;
+  animation: scroll-left-to-right 10s linear infinite;
+  font-family: "Dancing Script", serif;
+  font-size: 40px;
+  color: rgb(145, 60, 128);
+  font-weight: bold;
 }
 
-/* Define the animation */
+/*animation */
 @keyframes scroll-left-to-right {
-    from {
-        left: -100%;
-    }
-    to {
-        left: 100%;
-    }
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
 }
-
+/* login form */
 .form {
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    animation: fadeIn 3s ease-in-out;
-    font-family: "Dancing Script", serif;
-    font-size: 20px;
-    width: 80%;
-    margin: 70px auto;
-    padding: 20px; /* Default padding */
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  animation: fadeIn 3s ease-in-out;
+  font-family: "Dancing Script", serif;
+  font-size: 20px;
+  width: 80%;
+  margin: 70px auto;
+  padding: 20px; /* Default padding */
 }
-
 .form label {
-    font-family: "Courgette", serif;
+  font-family: "Courgette", serif;
 }
-
 .btn1 {
-    background-color: rgb(224, 112, 186);
-    transition: background-color 0.3s ease;
+  background-color: rgb(224, 112, 186);
+  transition: background-color 0.3s ease;
 }
-
 .btn1:hover {
-    background-color: rgb(234, 70, 176);
-    color: white;
+  background-color: rgb(234, 70, 176);
+  color: white;
 }
-
 .form-control {
-    font-size: 13px;
-    background-color: #e3a6da;
-    box-shadow: 0 4px 8px rgba(53, 55, 78, 0.1);
+  font-size: 13px;
+  background-color: #e3a6da;
+  box-shadow: 0 4px 8px rgba(53, 55, 78, 0.1);
 }
-
 .form-check-input {
-    background-color: #e3a6da;
+  background-color: #e3a6da;
 }
-
 .form-control:focus {
-    background-color: #e3a6da;
+  background-color: #e3a6da;
 }
-
 .account a {
-    color: #9e248c;
-    font-size: 15px;
+  color: #9e248c;
+  font-size: 15px;
 }
-
 .account a:hover {
-    color: rgb(53, 156, 190);
+  color: rgb(53, 156, 190);
 }
 
 /* Responsive design */
 @media (max-width: 995px) {
-    .form {
-        width: 100%;
-        margin: 50px auto;
-        padding: 10px; /* Reduced padding */
-        max-width: 500px;
-        min-height: 600px;
-    }
+  .form {
+    width: 100%;
+    margin: 50px auto;
+    padding: 10px; /* Reduced padding */
+    max-width: 500px;
+    min-height: 600px;
+  }
 
-    img {
-        display: none;
-    }
+  img {
+    display: none;
+  }
 
-    .row {
-        flex-direction: column;
-    }
+  .row {
+    flex-direction: column;
+  }
 
-    .scrolling-message {
-        font-size: 30px;
-    }
+  .scrolling-message {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 576px) {
-    .form {
-        padding: 5px; /* Further reduced padding */
-    }
+  .form {
+    padding: 5px; /* Further reduced padding */
+  }
 
-    .scrolling-message {
-        font-size: 25px;
-    }
+  .scrolling-message {
+    font-size: 25px;
+  }
 
-    .btn1 {
-        width: 100%;
-    }
+  .btn1 {
+    width: 100%;
+  }
 
-    img {
-        display: none;
-    }
+  img {
+    display: none;
+  }
 }
 
 .text {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-.btn-custom2{
-    background-color: #e3a6da;
-
+.btn-custom2 {
+  background-color: #e3a6da;
 }
-.btn-custom2:hover{
-    background-color: #70676f;
-
+.btn-custom2:hover {
+  background-color: #70676f;
 }
-.card-body{
-    background-color: antiquewhite;
+.card-body {
+  background-color: antiquewhite;
 }
-.card-body button{
-    background-color: rgb(244, 148, 215);
+.card-body button {
+  background-color: rgb(244, 148, 215);
 }
-.card-body button:hover{
-    background-color: rgb(226, 216, 223);
+.card-body button:hover {
+  background-color: rgb(226, 216, 223);
 }
